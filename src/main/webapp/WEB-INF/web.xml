@@ -1,0 +1,12 @@
+<web-app>
+    <servlet>
+        <servlet-name>mareNume</servlet-name>
+        <servlet-class>com.endava.pocu.web.DemoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mareNume</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
